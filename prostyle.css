@@ -1,0 +1,116 @@
+*{
+    font-family: 'Agdasima', sans-serif;
+font-family: 'Amiri', serif;
+text-decoration: none;
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+
+
+.Home{
+
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("صورة واتساب بتاريخ 2023-07-11 في 13.43.44.jpg");
+    background-color: black;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(25px);
+    background-position-y: 20px;
+    flex-direction: row-reverse;
+   
+}
+.img{
+    padding: 0;
+    width: 120px;
+    height: 75px;mix-blend-mode: color-burn;
+    background-color: black;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin: 30px;
+    margin-left: 100px;
+    position: relative;
+
+}
+
+
+a{
+    color: white;
+    border-width: 10px;
+    font-size: 18px;
+    transition: 0.3s ease;
+
+   
+}
+a:hover{
+    color:aquamarine;
+    text-shadow:  1px 2px 3px aquamarine ;
+    /*text-transform: uppercase;*/
+     
+    
+
+}
+
+.active{
+    color:aquamarine;
+    text-shadow:  0px 0px 3px aquamarine ,0px 0px 2px aquamarine ;
+    text-transform: uppercase;
+   /* filter: drop-shadow(0 0 0.4rem );*/
+}
+h1{
+    font-size: 50px;
+    color: aquamarine;
+    text-align: center;
+    margin-top: 150px;
+    font-weight:bolder ;
+    text-shadow:  1px 2px 3px aquamarine ;
+}
+
+h2{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+button{
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    width: 150px;
+    height: 70px;
+    margin-left: 700px;
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: white;
+    transition: .3s ease;
+}
+button:hover{
+    background-color: aquamarine;
+    color: black;
+    border-color: aquamarine;
+    transition: 0.4s ease;
+    transform: scale(1.1);
+    box-shadow: 1px 2px 5px aquamarine;
+    
+}
+.content{
+    margin-top: 30px;
+
+}
